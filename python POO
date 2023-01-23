@@ -1,0 +1,13 @@
+class Veiculo:
+    def __init__(self, nome, velMax, kmPorLitro):
+        self.nome = nome;
+        self.velMax = velMax;
+        self.kmPorLitro = kmPorLitro;
+        
+        def toStr(self):
+            print(f'nome ={self.nome}')
+            print(f'velocidade maxima = {self.velMax}')
+            print(f'Km Por Litro = {self.kmPorLitro}')
+            
+        modelo_carro = Veiculo('Corolla', 220, 10)
+        modelo_carro.toStr()
